@@ -1,8 +1,8 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
 import { LuComputer } from "react-icons/lu";
-import recipeepsImg from "@/public/recipeeps.png";
-import crowFunImg from "@/public/crowdFunding.png";
+import recipeepsImg from "../public/recipeeps.png";
+import crowFunImg from "../public/crowdFunding.png";
 import { TbHome } from "react-icons/tb";
 import { FaUserAstronaut } from "react-icons/fa";
 import { FaComputer } from "react-icons/fa6";
