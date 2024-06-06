@@ -1,11 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        reactStrictMode: true,
-        images: {
-          loader: "akamai",
-          path: "/",
-        },
+        remotePatterns: [
+          {
+            protocol: "https",
+            hostname: "images.unsplash.com",
+          },
+        ],
       },
     
 }
