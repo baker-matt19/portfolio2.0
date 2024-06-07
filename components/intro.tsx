@@ -16,7 +16,7 @@ export default function Intro({ isVisible }: { isVisible: boolean }) {
 
   const [typeEffect] = useTypewriter({
     words: [name, 'Web Developer', 'Software Engineer', 'Full Stack Developer', 'MERN Stack Developer',],
-    loop: {},
+    // loop: {},
     typeSpeed: 100,
     deleteSpeed: 40,
   })
