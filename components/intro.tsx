@@ -174,7 +174,7 @@ export default function Intro({ isVisible }: { isVisible: boolean }) {
 
               <div className="flex flex-col sm:flex-row  gap-4">
                 <Link
-                  href="/resume11224.pdf"
+                  href="/resume06072024.pdf"
                   download
                   className="group text-gray-100 bg-gray-900 border-gray-100 hover:border-black hover:text-gray-900 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition"
                   variant="outlined"
