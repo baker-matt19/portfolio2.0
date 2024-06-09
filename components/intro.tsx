@@ -29,8 +29,8 @@ export default function Intro({ isVisible }: { isVisible: boolean }) {
 
   return (
     <div id='home' className="flex justify-center items-center mb-30 scroll-mt-36">
-      <div id="techDiv relative" className="flex justify-end opacity-75 w-[100vw] top-0 absolute">
-        <div className="flex justify-center items-center gap-2">
+      <div id="techDiv" className="flex justify-end opacity-75 w-[100vw] top-0 absolute">
+        <div className="flex justify-center items-center gap-2 ">
           <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="#000000"

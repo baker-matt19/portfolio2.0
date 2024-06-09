@@ -3,9 +3,38 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .borderBlack {
-    @apply border border-black/10;
+  @apply border border-black/10;
 }
+
+/* #header #nav {
+    margin-top: 5rem;
+} */
+
+@media screen and (min-width: 1366px) {
+  #header {
+    top: 50px;
+    width: 50%;
+  }
+
+  /* #nav {
+    top: 57px;
+  } */
+}
+
+@media screen and (max-width: 1365px) {
+  #header {
+    top: 50px;
+  }
+
+  /* #nav {
+    top: 57px;
+  } */
+}
+
+/* #header {
+    display: none;
+} */
